@@ -5,10 +5,14 @@ CONFIG -= qt
 
 SOURCES += \
         main.cpp \
-    vec3.cpp \
-    application.cpp
+    application.cpp \
+    modules/vec3.cpp \
+    modules/camera.cpp \
+    modules/scene.cpp
 
 HEADERS += \
-    vec3.h \
     application.h \
-    utils.h
+    modules/utils.h \
+    modules/vec3.h \
+    modules/camera.h \
+    modules/scene.h
